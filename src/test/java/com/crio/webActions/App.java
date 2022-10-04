@@ -7,8 +7,8 @@ public class App {
     public static void main(String[] args) throws InterruptedException, MalformedURLException, ParseException {
         System.out.println("From App.java");
 
-        // TODO 1
-        WebElementCalendar webElementCalendar = new WebElementCalendar();
-        webElementCalendar.run();
+        // Activity activity = new Activity();
+        // activity.run();
+    
     }
 }
