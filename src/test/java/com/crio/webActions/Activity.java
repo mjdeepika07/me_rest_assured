@@ -35,4 +35,15 @@ public class Activity {
 	
 	}
 
+	// @Test
+	public void validateJSONSchema() {
+	
+	}
+
+	// @Test
+	public void validateWithHamcrestProductName() {
+		
+	}
+
 }
+
