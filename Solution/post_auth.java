@@ -13,7 +13,7 @@ public class post_auth {
 
         String token= "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNyaW8tdXNlcnMyMTQiLCJpYXQiOjE2NjQyMTUyMTYsImV4cCI6MTY2NDIzNjgxNn0.AIpLK0iCVluqJPZS_WOqlAMgv519_j8e6Jmj5_2QyPI";
 
-        RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com";
+        RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net";
 
         RestAssured.basePath = "/api/v1/user/addresses";
 

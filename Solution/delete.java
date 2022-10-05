@@ -10,7 +10,7 @@ public class delete {
 
         String token= "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNyaW8tdXNlcnNhYSIsImlhdCI6MTY2NDI5NDMwOSwiZXhwIjoxNjY0MzE1OTA5fQ.ENnbIcMzFtlx_g4FMCDcQQ4S3ib6GgEAu1EkIMsFBJU";
 
-        RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com";
+        RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net";
 
         RestAssured.basePath = "/api/v1/user/addresses/n00GeA7IcNkYuUaVLQgSp";
 

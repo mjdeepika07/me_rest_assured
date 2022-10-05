@@ -13,7 +13,7 @@ public class assertion_3 {
 
     public void verify(){
 
-        RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com/api/v1/products/34sLtEcMpzabRyfx";
+        RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net/api/v1/products/34sLtEcMpzabRyfx";
 
         //RestAssured.basePath = "/api/v1/products";
 

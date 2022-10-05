@@ -13,7 +13,7 @@ public class post_all {
    //save the JSON values to be sent  in the String object
        String jsonString = "{\"username\":\"crio-users125\",\"password\":\"password12\"}";
       
-       RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com";
+       RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net";
 
        RestAssured.basePath = "/api/v1/auth/register";
 
@@ -35,7 +35,7 @@ public class post_all {
 
        String jsonString = "{\"username\":\"crio-users125\",\"password\":\"password12\"}";
 
-       RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com";
+       RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net";
 
        RestAssured.basePath = "/api/v1/auth/login";
 
@@ -57,7 +57,7 @@ public class post_all {
    static void auth(String token) {
        String jsonString = "{\"address\":\"My new address - excited about moving in\"}";
 
-       RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com";
+       RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net";
 
        RestAssured.basePath = "/api/v1/user/addresses";
 

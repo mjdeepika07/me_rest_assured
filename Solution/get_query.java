@@ -8,7 +8,7 @@ public class get_query {
 
     public static void main(String[] args) {
 
-        RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com";
+        RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net";
 
         RestAssured.basePath = "/api/v1/products/search";
 

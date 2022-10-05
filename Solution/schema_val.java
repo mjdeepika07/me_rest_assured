@@ -12,7 +12,7 @@ public class schema_val {
     public void validateJSONSchema(){
 
 
-        RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com/api/v1/products";
+        RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net/api/v1/products";
 
         RequestSpecification http = RestAssured.given();
         Response response = http.request(Method.GET);

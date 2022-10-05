@@ -13,7 +13,7 @@ public class post_register {
 
         String jsonString = "{\"username\":\"crio-users2214\",\"password\":\"password12\"}";
 
-        RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com";
+        RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net";
 
         RestAssured.basePath = "/api/v1/auth/register";
 

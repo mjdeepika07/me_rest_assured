@@ -9,7 +9,7 @@ public class get {
     public void run() {
 
 
-        RestAssured.baseURI = "https://crio-qkart-backend-qa.herokuapp.com";
+        RestAssured.baseURI = "https://content-qkart-qa-backend.azurewebsites.net";
 
         RestAssured.basePath = "/api/v1/products";
 
